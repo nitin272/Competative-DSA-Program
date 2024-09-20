@@ -7,6 +7,7 @@ def removeDuplicates(array):
         if array[j] != array[i]:
             i += 1
             array[i] = array[j]
+            
 
     return i + 1
 
