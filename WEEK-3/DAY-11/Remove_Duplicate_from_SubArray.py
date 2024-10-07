@@ -7,13 +7,11 @@ def removeDuplicates(array):
         if array[j] != array[i]:
             i += 1
             array[i] = array[j]
-            
 
     return i + 1
 
-
-N = int(input(""))
-
-
-arr = list(map(int, input("").split()))[:N] 
-print("", removeDuplicates(arr))
+# Example with hardcoded input for video or demo
+arr = [1, 1, 2, 2, 3, 4, 4, 5]
+length = removeDuplicates(arr)
+print("Array after removing duplicates:", arr[:length])
+print("Length of array after removing duplicates:", length)

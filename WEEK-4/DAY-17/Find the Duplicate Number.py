@@ -24,6 +24,6 @@ def findDuplicate(nums: list[int]) -> int:
     
     return slow
 
-nums = list(map(int, input("Enter the numbers (space-separated): ").split()))
-# nums = [1 ,3 ,4 ,2, 2]
+# nums = list(map(int, input("Enter the numbers (space-separated): ").split()))
+nums = [1 ,3 ,4 ,2, 2]
 print(findDuplicate(nums))

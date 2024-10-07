@@ -23,7 +23,7 @@ def productExceptSelf(nums: list[int]) -> list[int]:
     
     return output
 
-nums = list(map(int, input("Enter the numbers (space-separated): ").split()))
-# nums = [1, 2, 3, 4]
+# nums = list(map(int, input("Enter the numbers (space-separated): ").split()))
+nums = [1, 2, 3, 4]
 
 print(productExceptSelf(nums))

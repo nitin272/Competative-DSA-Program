@@ -11,8 +11,13 @@ def maximumSubarraySum(arr):
 
     return maxSum
 
-N = int(input(""))
-arr = list(map(int, input("").split()))[:N]
-max_sum = maximumSubarraySum(arr)
 
-print("", 0 if max_sum == float('-inf') else max_sum)
+# N = int(input("Enter the number of elements: "))
+# arr = list(map(int, input("Enter the elements: ").split()))[:N]
+
+
+arr = [-2, 1, -3, 4, -1, 2, 1, -5, 4]
+
+max_sum = maximumSubarraySum(arr)
+print("Maximum Subarray Sum:", 0 if max_sum == float('-inf') else max_sum)
+

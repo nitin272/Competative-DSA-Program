@@ -23,7 +23,7 @@ def maxArea(height: list[int]) -> int:
     
     return max_water
 
-height = list(map(int, input("Enter the heights (space-separated): ").split())) 
+# height = list(map(int, input("Enter the heights (space-separated): ").split())) 
 
-# height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
+height = [1, 8, 6, 2, 5, 4, 8, 3, 7]
 print(maxArea(height))
